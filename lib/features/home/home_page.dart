@@ -8,8 +8,13 @@ class HomePage extends StatelessWidget {
     int days = 30;
     String name = 'ashutosh';
     return Scaffold(
-        body: Center(
-      child: Container(child: Text('Welcome $name, $days days of flutter1')),
-    ));
+      appBar: AppBar(
+        title: const Text('Catalogue app'),
+      ),
+      body: Center(
+        child: Text('Welcome $name, $days days of flutter1'),
+      ),
+      drawer: const Drawer(),
+    );
   }
 }
