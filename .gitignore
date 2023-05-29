@@ -12,6 +12,7 @@ migrate_working_dir/
 
 # IntelliJ related
 *.iml
+*.lock
 *.ipr
 *.iws
 .idea/
@@ -31,7 +32,6 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
-
 # Symbolication related
 app.*.symbols
 
